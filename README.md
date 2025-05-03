@@ -67,23 +67,6 @@ uvicorn main:app --reload
 
 ---
 
-## 📁 Project Structure
-```bash
-tracewise/
-├── tracewise-frontend/       # React frontend
-│   ├── components/           # Reusable UI components
-│   ├── pages/                # Page components
-│   ├── utils/                # Utility functions and mock data
-│   └── styles/               # TailwindCSS customizations
-├── tracewise-backend/        # FastAPI backend
-│   ├── routes/               # API routes
-│   ├── models/               # Database models
-│   ├── database/             # Database connection and management
-│   └── services/             # Business logic (blockchain interactions)
-```
-
----
-
 ## 🧪 Development Notes
 - Ensure PostgreSQL is running locally and the backend is connected.
 - Use `.env` files to manage sensitive configs for both frontend and backend.
