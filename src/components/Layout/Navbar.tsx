@@ -11,10 +11,10 @@ const Navbar: React.FC = () => {
 
   const navItems = [
     { path: '/', icon: <LayoutDashboard size={20} />, label: 'Dashboard' },
-    { path: '/products', icon: <Package size={20} />, label: 'Products' },
+    { path: '/products/:id', icon: <Package size={20} />, label: 'Products' },
     { path: '/journey-builder', icon: <Box size={20} />, label: 'Journey Builder' },
-    { path: '/qrcode', icon: <QrCode size={20} />, label: 'QR Codes' },
-    { path: '/certificates', icon: <FileCheck size={20} />, label: 'Certificates' },
+    { path: '/qrcode/:id', icon: <QrCode size={20} />, label: 'QR Codes' },
+    { path: '/products/create', icon: <FileCheck size={20} />, label: 'Create Products' },
   ];
 
   return (
