@@ -1,11 +1,10 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { Package, QrCode, FileCheck, Box, Plus } from 'lucide-react';
 import Layout from '../components/Layout/Layout';
 import ProductList from '../components/Product/ProductList';
 import { motion } from 'framer-motion';
 
-const Dashboard: React.FC = () => {
+const Dashboard = (): JSX.Element => {
   const statCards = [
     {
       title: 'Products',
