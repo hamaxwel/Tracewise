@@ -13,7 +13,6 @@ const Navbar: React.FC = () => {
     { path: '/', icon: <LayoutDashboard size={20} />, label: 'Dashboard' },
     { path: '/products/:id', icon: <Package size={20} />, label: 'Products' },
     { path: '/journey-builder', icon: <Box size={20} />, label: 'Journey Builder' },
-    { path: '/qrcode/:id', icon: <QrCode size={20} />, label: 'QR Codes' },
     { path: '/products/create', icon: <FileCheck size={20} />, label: 'Create Products' },
   ];
 
